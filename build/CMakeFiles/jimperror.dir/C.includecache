@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gary/thread_jim/errlog_test/test_perror.c
+stdio.h
+-
+pthread.h
+-
+string.h
+-
+errno.h
+-
+
